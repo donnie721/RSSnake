@@ -30,7 +30,7 @@ def cycle_news(gui, library):
 
 
 if __name__ == '__main__':
-    urls = ['http://feeds.bbci.co.uk/news/rss.xml', 'http://rss.cnn.com/rss/cnn_topstories.rss']
+    urls = ['http://feeds.bbci.co.uk/news/rss.xml', 'http://rss.cnn.com/rss/cnn_topstories.rss', 'https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml', 'https://www.buzzfeed.com/world.xml', 'https://www.reddit.com/r/worldnews/.rss', 'https://feeds.foxnews.com/foxnews/latest', 'http://abcnews.go.com/abcnews/internationalheadlines', 'http://www.npr.org/rss/rss.php?id=1004', 'https://www.theguardian.com/world/rss', 'https://www.cnbc.com/id/100003114/device/rss/rss.html']
     
     run_gui(urls)
     
